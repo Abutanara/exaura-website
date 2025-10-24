@@ -1,0 +1,54 @@
+{
+  "name": "exaura-website",
+  "version": "1.0.0",
+  "description": "Landing page for Exaura - Your Journey to Freedom from Smoking",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo 'Building production version...' && npm run optimize",
+    "optimize": "npx html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js --output index.min.html index.html",
+    "lint": "npx htmlhint index.html && npx csslint styles.css",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "keywords": [
+    "website",
+    "responsive",
+    "modern",
+    "exaura",
+    "quit-smoking",
+    "health-app",
+    "landing-page",
+    "html",
+    "css",
+    "javascript",
+    "mobile-app",
+    "wellness"
+  ],
+  "author": "Exaura Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exaura/exaura-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/exaura/exaura-website/issues"
+  },
+  "homepage": "https://exaura.com",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html-minifier": "^4.0.0",
+    "htmlhint": "^1.1.4",
+    "csslint": "^1.0.5"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

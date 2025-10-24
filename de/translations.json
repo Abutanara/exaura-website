@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "logo": "🚭 Exaura",
+    "home": "Startseite",
+    "features": "Funktionen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "badge": "Deine Reise zur Freiheit",
+    "title": "Mit dem Rauchen aufhören mit",
+    "titleHighlight": "Intelligenter Unterstützung",
+    "description": "Exaura ist eine Begleit-App zum Rauchstopp, die sich an dein Tempo anpasst. Verfolge deinen Fortschritt, verdiene Belohnungen und arbeite mit personalisierter Unterstützung an deinen Zielen.",
+    "downloadAppStore": "Im App Store laden",
+    "downloadGooglePlay": "JETZT HERUNTERLADEN",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "freeToDownload": "Kostenlos herunterladen",
+    "iosAndroid": "iOS & Android",
+    "languages": "DE & EN Sprachen"
+  },
+  "features": {
+    "title": "Dein Begleiter beim Rauchstopp",
+    "subtitle": "Tools und Funktionen, die darauf ausgelegt sind, dich auf deinem Weg zu deinen Zielen zu unterstützen",
+    "adaptiveIntelligence": {
+      "title": "Adaptive Intelligenz",
+      "description": "Intelligente Funktionen, die sich an deinen Fortschritt und deine Muster anpassen und personalisierte Unterstützung für deine Reise bieten."
+    },
+    "progressiveReduction": {
+      "title": "Schrittweise Reduzierung",
+      "description": "Ein schrittweiser Ansatz, der es dir ermöglicht, dein eigenes Tempo zu bestimmen. Verfolge tägliche Ziele und arbeite Schritt für Schritt an deinen Zielen."
+    },
+    "gamification": {
+      "title": "Gamification",
+      "description": "Verdiene XP, schalte Abzeichen frei, absolviere Missionen und steige auf, während du auf deinem Weg zum Rauchstopp vorankommst."
+    },
+    "cravingResistance": {
+      "title": "Craving-Widerstand",
+      "description": "Verfolge und widerstehe Cravings mit unserem eingebauten Timer. Protokolliere Trigger-Intensität und lerne deine Muster kennen."
+    },
+    "triggerAnalysis": {
+      "title": "Trigger-Analyse",
+      "description": "Identifiziere Muster in deinem Verhalten - Emotionen, Orte und Situationen - um deine Gewohnheiten besser zu verstehen."
+    },
+    "milestoneCelebrations": {
+      "title": "Meilenstein-Feiern",
+      "description": "Feiere deine Erfolge mit Meilenstein-Belohnungen und Fortschrittsverfolgung, während du deine Ziele erreichst."
+    }
+  },
+  "about": {
+    "title": "Über Exaura",
+    "description1": "Exaura ist dein persönlicher Begleiter auf dem Weg zu deinen Zielen. Mit benutzerorientiertem Design und adaptiver Intelligenz helfen wir dir, in deinem eigenen Tempo an deinen Zielen zu arbeiten.",
+    "description2": "Unser Ansatz kombiniert progressive Techniken mit Gamification-Elementen, um deine Reise ansprechend und nachhaltig zu gestalten. Jede Funktion ist darauf ausgelegt, deinen Fortschritt zu unterstützen und deine Erfolge zu feiern.",
+    "feature1": "Progressive Herangehensweise an deine Ziele",
+    "feature2": "Personalisiertes Reiseplanung",
+    "feature3": "Unterstützungs- und Motivationsfunktionen",
+    "goalAchievement": "Zielerreichung",
+    "userEngagement": "Nutzerengagement",
+    "featureUsage": "Funktionsnutzung"
+  },
+  "contact": {
+    "title": "Starte heute deine Reise",
+    "subtitle": "Bereit, an deinen Zielen zu arbeiten? Lade Exaura herunter und mache den ersten Schritt auf deiner Reise.",
+    "support": "Support",
+    "supportEmail": "info@stargate-innovationhub.com",
+    "availableOn": "Verfügbar für",
+    "platforms": "iOS & Android",
+    "languages": "Sprachen",
+    "supportedLanguages": "Deutsch & Englisch",
+    "yourName": "Dein Name",
+    "yourEmail": "Deine E-Mail",
+    "yourMessage": "Erzähle uns von deiner Reise oder stelle eine Frage...",
+    "sendMessage": "Nachricht senden"
+  },
+  "footer": {
+    "logo": "🚭 Exaura",
+    "description": "Dein vertrauensvoller Begleiter auf deiner Reise. Personalisiert, unterstützend und darauf ausgelegt, dir zu helfen, deine Ziele zu erreichen.",
+    "appFeatures": "App-Funktionen",
+    "progressTracking": "Fortschrittsverfolgung",
+    "gamification": "Gamification",
+    "analytics": "Analytik",
+    "supportTools": "Support-Tools",
+    "support": "Support",
+    "aboutExaura": "Über Exaura",
+    "contactSupport": "Support kontaktieren",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "download": "Herunterladen",
+    "iosAppStore": "iOS App Store",
+    "googlePlayStore": "Google Play Store",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "phone": {
+    "trackProgress": "Fortschritt verfolgen",
+    "earnRewards": "Belohnungen verdienen",
+    "stayMotivated": "Motiviert bleiben"
+  },
+  "cookie": {
+    "title": "🍪 Cookie-Hinweis",
+    "description": "Wir verwenden Cookies, um dein Browsing-Erlebnis zu verbessern, personalisierte Inhalte bereitzustellen und unseren Traffic zu analysieren. Durch Klicken auf \"Erlauben\" stimmst du der Verwendung unserer Cookies zu.",
+    "reject": "Ablehnen",
+    "moreDetails": "Weitere Details",
+    "allow": "Erlauben",
+    "preferences": "Cookie-Einstellungen",
+    "essential": "Notwendige Cookies",
+    "essentialDesc": "Diese Cookies sind für die Funktionalität der Website erforderlich und können nicht deaktiviert werden.",
+    "alwaysActive": "Immer aktiv",
+    "analytics": "Analyse-Cookies",
+    "analyticsDesc": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren.",
+    "marketing": "Marketing-Cookies",
+    "marketingDesc": "Diese Cookies werden verwendet, um Besucher über Websites hinweg für Marketingzwecke zu verfolgen.",
+    "savePreferences": "Einstellungen speichern"
+  }
+}

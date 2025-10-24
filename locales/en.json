@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "logo": "🚭 Exaura",
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "forceGerman": "Force DE"
+  },
+  "hero": {
+    "badge": "Your Journey to Freedom",
+    "title": "Quit Smoking with",
+    "titleHighlight": "Smart Support",
+    "description": "Exaura is a quit smoking companion app that adapts to your pace. Track your progress, earn rewards, and work towards your goals with personalized support.",
+    "downloadAppStore": "Download on the",
+    "downloadGooglePlay": "GET IT ON",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "freeToDownload": "Free to Download",
+    "iosAndroid": "iOS & Android",
+    "languages": "EN & DE Languages"
+  },
+  "features": {
+    "title": "Your Quit Smoking Companion",
+    "subtitle": "Tools and features designed to support your journey towards your goals",
+    "adaptiveIntelligence": {
+      "title": "Adaptive Intelligence",
+      "description": "Smart features that adapt to your progress and patterns, providing personalized support for your journey."
+    },
+    "progressiveReduction": {
+      "title": "Progressive Reduction",
+      "description": "Gradual reduction approach that lets you set your own pace. Track daily targets and work towards your goals step by step."
+    },
+    "gamification": {
+      "title": "Gamification",
+      "description": "Earn XP, unlock badges, complete missions, and level up as you progress on your quit journey."
+    },
+    "cravingResistance": {
+      "title": "Craving Resistance",
+      "description": "Track and resist cravings with our built-in timer. Log trigger intensity and learn your patterns."
+    },
+    "triggerAnalysis": {
+      "title": "Trigger Analysis",
+      "description": "Identify patterns in your behavior - emotions, locations, and situations - to help you understand your habits better."
+    },
+    "milestoneCelebrations": {
+      "title": "Milestone Celebrations",
+      "description": "Celebrate your achievements with milestone rewards and progress tracking as you reach your goals."
+    }
+  },
+  "about": {
+    "title": "About Exaura",
+    "description1": "Exaura is your personal companion on the journey to your goals. Built with user-focused design and powered by adaptive intelligence, we help you work towards your objectives at your own pace.",
+    "description2": "Our approach combines progressive techniques with gamification elements to make your journey engaging and sustainable. Every feature is designed to support your progress and celebrate your achievements.",
+    "feature1": "Progressive approach to your goals",
+    "feature2": "Personalized journey planning",
+    "feature3": "Support and motivation features",
+    "goalAchievement": "Goal Achievement",
+    "userEngagement": "User Engagement",
+    "featureUsage": "Feature Usage"
+  },
+  "contact": {
+    "title": "Start Your Journey Today",
+    "subtitle": "Ready to work towards your goals? Download Exaura and take the first step on your journey.",
+    "support": "Support",
+    "supportEmail": "info@stargate-innovationhub.com",
+    "availableOn": "Available On",
+    "platforms": "iOS & Android",
+    "languages": "Languages",
+    "supportedLanguages": "English & German",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "yourMessage": "Tell us about your journey or ask a question...",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "logo": "🚭 Exaura",
+    "description": "Your trusted companion on your journey. Personalized, supportive, and designed to help you reach your goals.",
+    "appFeatures": "App Features",
+    "progressTracking": "Progress Tracking",
+    "gamification": "Gamification",
+    "analytics": "Analytics",
+    "supportTools": "Support Tools",
+    "support": "Support",
+    "aboutExaura": "About Exaura",
+    "contactSupport": "Contact Support",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "download": "Download",
+    "iosAppStore": "iOS App Store",
+    "googlePlayStore": "Google Play Store",
+    "webVersion": "Web Version",
+    "systemRequirements": "System Requirements",
+    "allRightsReserved": "All rights reserved."
+  },
+  "phone": {
+    "trackProgress": "Track Progress",
+    "earnRewards": "Earn Rewards",
+    "stayMotivated": "Stay Motivated"
+  },
+  "cookie": {
+    "title": "🍪 Cookie Notice",
+    "description": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking \"Allow\", you consent to our use of cookies.",
+    "reject": "Reject",
+    "moreDetails": "More Details",
+    "allow": "Allow",
+    "preferences": "Cookie Preferences",
+    "essential": "Essential Cookies",
+    "essentialDesc": "These cookies are necessary for the website to function and cannot be switched off.",
+    "alwaysActive": "Always Active",
+    "analytics": "Analytics Cookies",
+    "analyticsDesc": "These cookies help us understand how visitors interact with our website.",
+    "marketing": "Marketing Cookies",
+    "marketingDesc": "These cookies are used to track visitors across websites for marketing purposes.",
+    "savePreferences": "Save Preferences"
+  },
+  "language": {
+    "current": "EN",
+    "switchTo": "DE"
+  }
+}

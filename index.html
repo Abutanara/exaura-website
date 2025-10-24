@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exaura - Your Journey to Freedom from Smoking</title>
+    <meta name="description" content="Exaura - A science-backed quit smoking app that helps you break free from cigarettes through progressive reduction, gamification, and personalized support.">
+    
+    <!-- SEO Meta Tags -->
+    <link rel="canonical" href="https://exaura.stargate-innovationhub.com/">
+    <link rel="alternate" hreflang="en" href="https://exaura.stargate-innovationhub.com/en/">
+    <link rel="alternate" hreflang="de" href="https://exaura.stargate-innovationhub.com/de/">
+    <link rel="alternate" hreflang="x-default" href="https://exaura.stargate-innovationhub.com/en/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Exaura - Your Journey to Freedom from Smoking">
+    <meta property="og:description" content="A science-backed quit smoking app with progressive reduction, gamification, and personalized support.">
+    <meta property="og:url" content="https://exaura.stargate-innovationhub.com/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exaura - Your Journey to Freedom from Smoking">
+    <meta name="twitter:description" content="A science-backed quit smoking app with progressive reduction, gamification, and personalized support.">
+    
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        .redirect-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
+            color: white;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .redirect-logo {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .redirect-text {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        
+        .redirect-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .redirect-link {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .redirect-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 1rem auto;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .redirect-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .redirect-text {
+                font-size: 1.2rem;
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="redirect-page">
+    <div class="redirect-container">
+        <div class="redirect-logo">🚭 Exaura</div>
+        <div class="redirect-text">Detecting your language preference...</div>
+        <div class="loading-spinner"></div>
+        <div class="redirect-text">Or choose your language:</div>
+        <div class="redirect-links">
+            <a href="en/" class="redirect-link">🇺🇸 English</a>
+            <a href="de/" class="redirect-link">🇩🇪 Deutsch</a>
+        </div>
+    </div>
+
+    <script>
+        // Language detection and redirect
+        function detectAndRedirect() {
+            // Check for saved preference first
+            const savedLang = localStorage.getItem('exaura-language');
+            if (savedLang && (savedLang === 'en' || savedLang === 'de')) {
+                window.location.href = savedLang + '/';
+                return;
+            }
+            
+            // Check URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const langParam = urlParams.get('lang');
+            if (langParam && (langParam === 'en' || langParam === 'de')) {
+                localStorage.setItem('exaura-language', langParam);
+                window.location.href = langParam + '/';
+                return;
+            }
+            
+            // Check browser language
+            const browserLang = navigator.language || navigator.userLanguage;
+            if (browserLang.startsWith('de')) {
+                window.location.href = 'de/';
+                return;
+            }
+            
+            // Check for German-speaking countries based on timezone
+            try {
+                const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                const germanTimezones = ['Europe/Berlin', 'Europe/Vienna', 'Europe/Zurich', 'Europe/Luxembourg', 'Europe/Vaduz'];
+                if (germanTimezones.includes(timezone)) {
+                    window.location.href = 'de/';
+                    return;
+                }
+            } catch (e) {
+                console.log('Timezone detection failed:', e);
+            }
+            
+            // Default to English
+            window.location.href = 'en/';
+        }
+        
+        // Redirect after a short delay to show the loading animation
+        setTimeout(detectAndRedirect, 1500);
+        
+        // Also redirect immediately if user clicks a language link
+        document.querySelectorAll('.redirect-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const lang = link.href.includes('/en/') ? 'en' : 'de';
+                localStorage.setItem('exaura-language', lang);
+                window.location.href = lang + '/';
+            });
+        });
+    </script>
+</body>
+</html>
