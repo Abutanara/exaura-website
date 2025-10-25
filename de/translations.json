@@ -71,7 +71,9 @@
     "yourName": "Dein Name",
     "yourEmail": "Deine E-Mail",
     "yourMessage": "Erzähle uns von deiner Reise oder stelle eine Frage...",
-    "sendMessage": "Nachricht senden"
+    "sendMessage": "Nachricht senden",
+    "successMessage": "Vielen Dank für deine Nachricht! Wir werden dir bald antworten.",
+    "errorFillAll": "Bitte fülle alle Felder aus."
   },
   "footer": {
     "logo": "🚭 Exaura",

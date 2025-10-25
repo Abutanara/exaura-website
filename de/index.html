@@ -25,7 +25,7 @@
     <meta name="twitter:description" content="Eine Begleit-App zum Rauchstopp mit progressiver Reduzierung, Gamification und personalisierter Unterstützung.">
     
     <link rel="icon" type="image/png" href="../assets/favicon.png">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css?v=3">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -35,7 +35,7 @@
         <div class="nav-container">
             <div class="nav-logo">
                 <img src="../assets/Exaura-LetterE-Modern-1024x1024.png?v=2" alt="Exaura Logo" class="logo-img">
-                <h2 data-translate="nav.logo">Exaura</h2>
+                <h2>Exaura</h2>
             </div>
             <div class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link" data-translate="nav.home">Startseite</a>
@@ -75,15 +75,15 @@
                     <a href="#" class="btn btn-primary app-store-btn" data-store="ios">
                         <i class="fab fa-apple"></i>
                         <div class="btn-text">
-                            <span class="btn-small">Im App Store laden</span>
-                            <span class="btn-large">App Store</span>
+                            <span class="btn-small">Jetzt herunterladen</span>
+                            <span class="btn-large">im App Store</span>
                         </div>
                     </a>
                     <a href="#" class="btn btn-primary app-store-btn" data-store="android">
                         <i class="fab fa-google-play"></i>
                         <div class="btn-text">
-                            <span class="btn-small">JETZT HERUNTERLADEN</span>
-                            <span class="btn-large">Google Play</span>
+                            <span class="btn-small">Jetzt herunterladen</span>
+                            <span class="btn-large">im Play Store</span>
                         </div>
                     </a>
                 </div>
@@ -320,15 +320,15 @@
                     <a href="#" class="app-store-btn" data-store="ios">
                         <i class="fab fa-apple"></i>
                         <div class="btn-text">
-                            <span class="btn-subtitle">Im App Store laden</span>
-                            <span class="btn-title">App Store</span>
+                            <span class="btn-subtitle">Jetzt herunterladen</span>
+                            <span class="btn-title">im App Store</span>
                         </div>
                     </a>
                     <a href="#" class="app-store-btn" data-store="android">
                         <i class="fab fa-google-play"></i>
                         <div class="btn-text">
-                            <span class="btn-subtitle">JETZT HERUNTERLADEN</span>
-                            <span class="btn-title">Google Play</span>
+                            <span class="btn-subtitle">Jetzt herunterladen</span>
+                            <span class="btn-title">im Play Store</span>
                         </div>
                     </a>
                 </div>
@@ -357,15 +357,15 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form">
+                <form class="contact-form" action="https://formspree.io/f/xrbozjla" method="POST">
                     <div class="form-group">
-                        <input type="text" placeholder="Dein Name" required>
+                        <input type="text" name="name" placeholder="Dein Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Deine E-Mail" required>
+                        <input type="email" name="email" placeholder="Deine E-Mail" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Erzähle uns von deiner Reise oder stelle eine Frage..." rows="5" required></textarea>
+                        <textarea name="message" placeholder="Erzähle uns von deiner Reise oder stelle eine Frage..." rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Nachricht senden</button>
                 </form>

@@ -1,4 +1,7 @@
 // Translation system for language-specific pages
+// Store translations globally for use in form handlers
+let globalTranslations = {};
+
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('🚭 Exaura website loaded successfully!');
     
@@ -6,8 +9,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('./translations.json');
         if (response.ok) {
-            const translations = await response.json();
-            console.log('Translations loaded:', translations);
+            globalTranslations = await response.json();
+            console.log('Translations loaded:', globalTranslations);
             
             // Apply translations to all elements with data-translate attribute
             const elements = document.querySelectorAll('[data-translate]');
@@ -15,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             elements.forEach(element => {
                 const key = element.getAttribute('data-translate');
-                const translation = getTranslationByKey(translations, key);
+                const translation = getTranslationByKey(globalTranslations, key);
                 
                 if (translation) {
                     if (element.tagName === 'INPUT' && (element.type === 'text' || element.type === 'email')) {
@@ -109,12 +112,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             // Simple validation
             if (!name || !email || !message) {
-                showNotification('Please fill in all fields.', 'error');
+                // Get translation from global translations
+                const errorMsg = globalTranslations?.contact?.errorFillAll || 'Please fill in all fields.';
+                showNotification(errorMsg, 'error');
                 return;
             }
             
             // Simulate form submission
-            showNotification('Thank you for your message! We\'ll get back to you soon.', 'success');
+            // Get translation from global translations
+            const successMsg = globalTranslations?.contact?.successMessage || 'Thank you for your message! We\'ll get back to you soon.';
+            showNotification(successMsg, 'success');
             this.reset();
         });
     }

@@ -71,7 +71,9 @@
     "yourName": "Your Name",
     "yourEmail": "Your Email",
     "yourMessage": "Tell us about your journey or ask a question...",
-    "sendMessage": "Send Message"
+    "sendMessage": "Send Message",
+    "successMessage": "Thank you for your message! We'll get back to you soon.",
+    "errorFillAll": "Please fill in all fields."
   },
   "footer": {
     "logo": "🚭 Exaura",
