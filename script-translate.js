@@ -98,33 +98,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     });
 
-    // Contact Form Handling
-    const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const name = this.querySelector('input[type="text"]').value;
-            const email = this.querySelector('input[type="email"]').value;
-            const message = this.querySelector('textarea').value;
-            
-            // Simple validation
-            if (!name || !email || !message) {
-                // Get translation from global translations
-                const errorMsg = globalTranslations?.contact?.errorFillAll || 'Please fill in all fields.';
-                showNotification(errorMsg, 'error');
-                return;
-            }
-            
-            // Simulate form submission
-            // Get translation from global translations
-            const successMsg = globalTranslations?.contact?.successMessage || 'Thank you for your message! We\'ll get back to you soon.';
-            showNotification(successMsg, 'success');
-            this.reset();
-        });
-    }
+    // Contact Form Handling - REMOVED to allow native Formspree submission
+    // The form will now submit directly to Formspree without JavaScript interference
 
     // GDPR Cookie Banner Functionality
     const cookieBanner = document.getElementById('cookie-banner');
