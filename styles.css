@@ -750,6 +750,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-8);
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact-item {
@@ -779,6 +782,17 @@ body {
 
 .contact-item p {
     color: var(--text-secondary);
+}
+
+.contact-item a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.contact-item a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .contact-form {
