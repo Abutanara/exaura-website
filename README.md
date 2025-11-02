@@ -1,10 +1,10 @@
-# Exaura Website
+# My Quitly Website
 
-A modern, responsive landing page for Exaura - Your Journey to Freedom from Smoking. Built with pure HTML, CSS, and JavaScript to promote your quit smoking app.
+A modern, responsive landing page for My Quitly - Your Journey to Freedom from Smoking. Built with pure HTML, CSS, and JavaScript to promote your quit smoking app.
 
 ## 🚀 Features
 
-- **Modern Design**: Clean, contemporary design with Exaura's teal branding and smooth animations
+- **Modern Design**: Clean, contemporary design with My Quitly's teal branding and smooth animations
 - **Fully Responsive**: Optimized for all devices (desktop, tablet, mobile)
 - **App Store Integration**: Direct links to iOS App Store and Google Play Store
 - **Interactive Elements**: Smooth scrolling, hover effects, and dynamic animations
@@ -43,11 +43,11 @@ A modern, responsive landing page for Exaura - Your Journey to Freedom from Smok
 1. **Clone or download the project**
    ```bash
    # If using git
-   git clone https://github.com/exaura/exaura-website.git
-   cd exaura-website
+   git clone https://github.com/myquitly/myquitly-website.git
+   cd myquitly-website
    
    # Or simply navigate to the project directory
-   cd "/Users/florianaboutara/Downloads/Exaura Website"
+   cd "/Users/florianaboutara/Downloads/My Quitly Website"
    ```
 
 2. **Install dependencies**
@@ -157,7 +157,7 @@ To add images:
 ### File Structure
 
 ```
-exaura-website/
+myquitly-website/
 ├── index.html          # Main HTML file
 ├── styles.css          # All CSS styles
 ├── script.js           # JavaScript functionality
@@ -288,12 +288,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Support
 
 For support or questions:
-- Email: hello@exaura.com
+- Email: hello@myquitly.com
 - Phone: +1 (555) 123-4567
-- Website: https://exaura.com
+- Website: https://myquitly.com
 
 ---
 
-**Built with ❤️ for Exaura**
+**Built with ❤️ for My Quitly**
 
 *Transform Your Digital Experience*

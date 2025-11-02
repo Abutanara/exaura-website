@@ -1,6 +1,6 @@
 // Simple script for language-specific pages (no translation needed)
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚭 Exaura website loaded successfully!');
+    console.log('🚭 My Quitly website loaded successfully!');
     
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // App Store Links
     const appStoreLinks = {
-        ios: 'https://apps.apple.com/app/exaura/id123456789', // Replace with your actual iOS App Store URL
-        android: 'https://play.google.com/store/apps/details?id=com.exaura.quitsmokingapp' // Replace with your actual Google Play URL
+        ios: 'https://apps.apple.com/app/myquitly/id123456789', // Replace with your actual iOS App Store URL
+        android: 'https://play.google.com/store/apps/details?id=com.myquitly.quitsmokingapp' // Replace with your actual Google Play URL
     };
     
     // Add click handlers for app store buttons

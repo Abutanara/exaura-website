@@ -1,6 +1,6 @@
 {
   "nav": {
-    "logo": "🚭 Exaura",
+    "logo": "🚭 My Quitly",
     "home": "Startseite",
     "features": "Funktionen",
     "about": "Über uns",
@@ -12,7 +12,7 @@
     "badge": "Deine Reise zur Freiheit",
     "title": "Mit dem Rauchen aufhören mit",
     "titleHighlight": "Intelligenter Unterstützung",
-    "description": "Exaura ist eine Begleit-App zum Rauchstopp, die sich an dein Tempo anpasst. Verfolge deinen Fortschritt, verdiene Belohnungen und arbeite mit personalisierter Unterstützung an deinen Zielen.",
+    "description": "My Quitly ist eine Begleit-App zum Rauchstopp, die sich an dein Tempo anpasst. Verfolge deinen Fortschritt, verdiene Belohnungen und arbeite mit personalisierter Unterstützung an deinen Zielen.",
     "downloadAppStore": "Im App Store laden",
     "downloadGooglePlay": "JETZT HERUNTERLADEN",
     "appStore": "App Store",
@@ -50,8 +50,8 @@
     }
   },
   "about": {
-    "title": "Über Exaura",
-    "description1": "Exaura ist dein persönlicher Begleiter auf dem Weg zu deinen Zielen. Mit benutzerorientiertem Design und adaptiver Intelligenz helfen wir dir, in deinem eigenen Tempo an deinen Zielen zu arbeiten.",
+    "title": "Über My Quitly",
+    "description1": "My Quitly ist dein persönlicher Begleiter auf dem Weg zu deinen Zielen. Mit benutzerorientiertem Design und adaptiver Intelligenz helfen wir dir, in deinem eigenen Tempo an deinen Zielen zu arbeiten.",
     "description2": "Unser Ansatz kombiniert progressive Techniken mit Gamification-Elementen, um deine Reise ansprechend und nachhaltig zu gestalten. Jede Funktion ist darauf ausgelegt, deinen Fortschritt zu unterstützen und deine Erfolge zu feiern.",
     "feature1": "Progressive Herangehensweise an deine Ziele",
     "feature2": "Personalisiertes Reiseplanung",
@@ -62,7 +62,7 @@
   },
   "contact": {
     "title": "Starte heute deine Reise",
-    "subtitle": "Bereit, an deinen Zielen zu arbeiten? Lade Exaura herunter und mache den ersten Schritt auf deiner Reise.",
+    "subtitle": "Bereit, an deinen Zielen zu arbeiten? Lade My Quitly herunter und mache den ersten Schritt auf deiner Reise.",
     "support": "Support",
     "supportEmail": "info@stargate-innovationhub.com",
     "availableOn": "Verfügbar für",
@@ -75,7 +75,7 @@
     "sendMessage": "Nachricht senden"
   },
   "footer": {
-    "logo": "🚭 Exaura",
+    "logo": "🚭 My Quitly",
     "description": "Dein vertrauensvoller Begleiter auf deiner Reise. Personalisiert, unterstützend und darauf ausgelegt, dir zu helfen, deine Ziele zu erreichen.",
     "appFeatures": "App-Funktionen",
     "progressTracking": "Fortschrittsverfolgung",
@@ -83,7 +83,7 @@
     "analytics": "Analytik",
     "supportTools": "Support-Tools",
     "support": "Support",
-    "aboutExaura": "Über Exaura",
+    "aboutMy Quitly": "Über My Quitly",
     "contactSupport": "Support kontaktieren",
     "privacyPolicy": "Datenschutzrichtlinie",
     "termsOfService": "Nutzungsbedingungen",

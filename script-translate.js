@@ -3,7 +3,7 @@
 let globalTranslations = {};
 
 document.addEventListener('DOMContentLoaded', async () => {
-    console.log('🚭 Exaura website loaded successfully!');
+    console.log('🚭 My Quitly website loaded successfully!');
     
     // Load translations from JSON file
     try {
@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // App Store Links
     const appStoreLinks = {
-        ios: 'https://apps.apple.com/app/exaura/id123456789', // Replace with your actual iOS App Store URL
-        android: 'https://play.google.com/store/apps/details?id=com.exaura.quitsmokingapp' // Replace with your actual Google Play URL
+        ios: 'https://apps.apple.com/app/myquitly/id123456789', // Replace with your actual iOS App Store URL
+        android: 'https://play.google.com/store/apps/details?id=com.myquitly.quitsmokingapp' // Replace with your actual Google Play URL
     };
     
     // Add click handlers for app store buttons

@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // App Store Links - Update these with your actual app store URLs
     const appStoreLinks = {
-        ios: 'https://apps.apple.com/app/exaura/id123456789', // Replace with your actual iOS App Store URL
-        android: 'https://play.google.com/store/apps/details?id=com.exaura.quitsmokingapp' // Replace with your actual Google Play URL
+        ios: 'https://apps.apple.com/app/myquitly/id123456789', // Replace with your actual iOS App Store URL
+        android: 'https://play.google.com/store/apps/details?id=com.myquitly.quitsmokingapp' // Replace with your actual Google Play URL
     };
     
     // Add click handlers for app store buttons
@@ -453,7 +453,7 @@ window.addEventListener('load', () => {
         }
         
         body:not(.loaded)::after {
-            content: 'Exaura';
+            content: 'My Quitly';
             position: fixed;
             top: 50%;
             left: 50%;
@@ -533,7 +533,7 @@ let translations = {};
 const embeddedTranslations = {
     en: {
         "nav": {
-            "logo": "🚭 Exaura",
+            "logo": "🚭 My Quitly",
             "home": "Home",
             "features": "Features",
             "about": "About",
@@ -545,7 +545,7 @@ const embeddedTranslations = {
             "badge": "Your Journey to Freedom",
             "title": "Quit Smoking with",
             "titleHighlight": "Smart Support",
-            "description": "Exaura is a quit smoking companion app that adapts to your pace. Track your progress, earn rewards, and work towards your goals with personalized support.",
+            "description": "My Quitly is a quit smoking companion app that adapts to your pace. Track your progress, earn rewards, and work towards your goals with personalized support.",
             "downloadAppStore": "Download on the",
             "downloadGooglePlay": "GET IT ON",
             "appStore": "App Store",
@@ -583,8 +583,8 @@ const embeddedTranslations = {
             }
         },
         "about": {
-            "title": "About Exaura",
-            "description1": "Exaura is your personal companion on the journey to your goals. Built with user-focused design and powered by adaptive intelligence, we help you work towards your objectives at your own pace.",
+            "title": "About My Quitly",
+            "description1": "My Quitly is your personal companion on the journey to your goals. Built with user-focused design and powered by adaptive intelligence, we help you work towards your objectives at your own pace.",
             "description2": "Our approach combines progressive techniques with gamification elements to make your journey engaging and sustainable. Every feature is designed to support your progress and celebrate your achievements.",
             "feature1": "Progressive approach to your goals",
             "feature2": "Personalized journey planning",
@@ -595,7 +595,7 @@ const embeddedTranslations = {
         },
         "contact": {
             "title": "Start Your Journey Today",
-            "subtitle": "Ready to work towards your goals? Download Exaura and take the first step on your journey.",
+            "subtitle": "Ready to work towards your goals? Download My Quitly and take the first step on your journey.",
             "support": "Support",
             "supportEmail": "info@stargate-innovationhub.com",
             "availableOn": "Available On",
@@ -608,7 +608,7 @@ const embeddedTranslations = {
             "sendMessage": "Send Message"
         },
         "footer": {
-            "logo": "🚭 Exaura",
+            "logo": "🚭 My Quitly",
             "description": "Your trusted companion on your journey. Personalized, supportive, and designed to help you reach your goals.",
             "appFeatures": "App Features",
             "progressTracking": "Progress Tracking",
@@ -616,7 +616,7 @@ const embeddedTranslations = {
             "analytics": "Analytics",
             "supportTools": "Support Tools",
             "support": "Support",
-            "aboutExaura": "About Exaura",
+            "aboutMy Quitly": "About My Quitly",
             "contactSupport": "Contact Support",
             "privacyPolicy": "Privacy Policy",
             "termsOfService": "Terms of Service",
@@ -655,7 +655,7 @@ const embeddedTranslations = {
     },
     de: {
         "nav": {
-            "logo": "🚭 Exaura",
+            "logo": "🚭 My Quitly",
             "home": "Startseite",
             "features": "Funktionen",
             "about": "Über uns",
@@ -667,7 +667,7 @@ const embeddedTranslations = {
             "badge": "Deine Reise zur Freiheit",
             "title": "Mit dem Rauchen aufhören mit",
             "titleHighlight": "Intelligenter Unterstützung",
-            "description": "Exaura ist eine Begleit-App zum Rauchstopp, die sich an dein Tempo anpasst. Verfolge deinen Fortschritt, verdiene Belohnungen und arbeite mit personalisierter Unterstützung an deinen Zielen.",
+            "description": "My Quitly ist eine Begleit-App zum Rauchstopp, die sich an dein Tempo anpasst. Verfolge deinen Fortschritt, verdiene Belohnungen und arbeite mit personalisierter Unterstützung an deinen Zielen.",
             "downloadAppStore": "Im App Store laden",
             "downloadGooglePlay": "JETZT HERUNTERLADEN",
             "appStore": "App Store",
@@ -705,8 +705,8 @@ const embeddedTranslations = {
             }
         },
         "about": {
-            "title": "Über Exaura",
-            "description1": "Exaura ist dein persönlicher Begleiter auf dem Weg zu deinen Zielen. Mit benutzerorientiertem Design und adaptiver Intelligenz helfen wir dir, in deinem eigenen Tempo an deinen Zielen zu arbeiten.",
+            "title": "Über My Quitly",
+            "description1": "My Quitly ist dein persönlicher Begleiter auf dem Weg zu deinen Zielen. Mit benutzerorientiertem Design und adaptiver Intelligenz helfen wir dir, in deinem eigenen Tempo an deinen Zielen zu arbeiten.",
             "description2": "Unser Ansatz kombiniert progressive Techniken mit Gamification-Elementen, um deine Reise ansprechend und nachhaltig zu gestalten. Jede Funktion ist darauf ausgelegt, deinen Fortschritt zu unterstützen und deine Erfolge zu feiern.",
             "feature1": "Progressive Herangehensweise an deine Ziele",
             "feature2": "Personalisiertes Reiseplanung",
@@ -717,7 +717,7 @@ const embeddedTranslations = {
         },
         "contact": {
             "title": "Starte heute deine Reise",
-            "subtitle": "Bereit, an deinen Zielen zu arbeiten? Lade Exaura herunter und mache den ersten Schritt auf deiner Reise.",
+            "subtitle": "Bereit, an deinen Zielen zu arbeiten? Lade My Quitly herunter und mache den ersten Schritt auf deiner Reise.",
             "support": "Support",
             "supportEmail": "info@stargate-innovationhub.com",
             "availableOn": "Verfügbar für",
@@ -730,7 +730,7 @@ const embeddedTranslations = {
             "sendMessage": "Nachricht senden"
         },
         "footer": {
-            "logo": "🚭 Exaura",
+            "logo": "🚭 My Quitly",
             "description": "Dein vertrauensvoller Begleiter auf deiner Reise. Personalisiert, unterstützend und darauf ausgelegt, dir zu helfen, deine Ziele zu erreichen.",
             "appFeatures": "App-Funktionen",
             "progressTracking": "Fortschrittsverfolgung",
@@ -738,7 +738,7 @@ const embeddedTranslations = {
             "analytics": "Analytik",
             "supportTools": "Support-Tools",
             "support": "Support",
-            "aboutExaura": "Über Exaura",
+            "aboutMy Quitly": "Über My Quitly",
             "contactSupport": "Support kontaktieren",
             "privacyPolicy": "Datenschutzrichtlinie",
             "termsOfService": "Nutzungsbedingungen",
@@ -801,7 +801,7 @@ async function loadTranslations(language) {
 // Detect user's language preference
 function detectUserLanguage() {
     // Check localStorage first
-    const savedLanguage = localStorage.getItem('exaura-language');
+    const savedLanguage = localStorage.getItem('myquitly-language');
     if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'de')) {
         console.log('Using saved language from localStorage:', savedLanguage);
         return savedLanguage;
@@ -887,8 +887,8 @@ function translatePage() {
     
     // Update page title and meta description
     if (currentLanguage === 'de') {
-        document.title = 'Exaura - Deine Reise zur Freiheit vom Rauchen';
-        document.querySelector('meta[name="description"]').content = 'Exaura - Eine Begleit-App zum Rauchstopp, die dir hilft, mit progressiver Reduzierung, Gamification und personalisierter Unterstützung mit dem Rauchen aufzuhören.';
+        document.title = 'My Quitly - Deine Reise zur Freiheit vom Rauchen';
+        document.querySelector('meta[name="description"]').content = 'My Quitly - Eine Begleit-App zum Rauchstopp, die dir hilft, mit progressiver Reduzierung, Gamification und personalisierter Unterstützung mit dem Rauchen aufzuhören.';
         
         // Update privacy and terms links for German
         const privacyLinks = document.querySelectorAll('a[href="privacy.html"]');
@@ -896,8 +896,8 @@ function translatePage() {
         privacyLinks.forEach(link => link.href = 'privacy-de.html');
         termsLinks.forEach(link => link.href = 'terms-de.html');
     } else {
-        document.title = 'Exaura - Your Journey to Freedom from Smoking';
-        document.querySelector('meta[name="description"]').content = 'Exaura - A science-backed quit smoking app that helps you break free from cigarettes through progressive reduction, gamification, and personalized support.';
+        document.title = 'My Quitly - Your Journey to Freedom from Smoking';
+        document.querySelector('meta[name="description"]').content = 'My Quitly - A science-backed quit smoking app that helps you break free from cigarettes through progressive reduction, gamification, and personalized support.';
         
         // Update privacy and terms links for English
         const privacyLinks = document.querySelectorAll('a[href="privacy-de.html"]');
@@ -910,16 +910,16 @@ function translatePage() {
 // Update page meta information (title, description)
 function updatePageMeta() {
     if (currentLanguage === 'de') {
-        document.title = 'Exaura - Deine Reise zur Freiheit vom Rauchen';
+        document.title = 'My Quitly - Deine Reise zur Freiheit vom Rauchen';
         const metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) {
-            metaDescription.content = 'Exaura - Eine Begleit-App zum Rauchstopp, die dir hilft, mit progressiver Reduzierung, Gamification und personalisierter Unterstützung mit dem Rauchen aufzuhören.';
+            metaDescription.content = 'My Quitly - Eine Begleit-App zum Rauchstopp, die dir hilft, mit progressiver Reduzierung, Gamification und personalisierter Unterstützung mit dem Rauchen aufzuhören.';
         }
     } else {
-        document.title = 'Exaura - Your Journey to Freedom from Smoking';
+        document.title = 'My Quitly - Your Journey to Freedom from Smoking';
         const metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) {
-            metaDescription.content = 'Exaura - A science-backed quit smoking app that helps you break free from cigarettes through progressive reduction, gamification, and personalized support.';
+            metaDescription.content = 'My Quitly - A science-backed quit smoking app that helps you break free from cigarettes through progressive reduction, gamification, and personalized support.';
         }
     }
 }
@@ -978,7 +978,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             updatePageMeta();
             
             // Save preference
-            localStorage.setItem('exaura-language', currentLanguage);
+            localStorage.setItem('myquitly-language', currentLanguage);
             console.log('Language preference saved to localStorage');
             
             // Show notification
@@ -1009,7 +1009,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             translatePage();
             updatePageMeta();
-            localStorage.setItem('exaura-language', 'de');
+            localStorage.setItem('myquitly-language', 'de');
             
             console.log('✅ Forced German language applied!');
         });
@@ -1128,4 +1128,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
-console.log('🚭 Exaura quit smoking app website loaded successfully!');
+console.log('🚭 My Quitly quit smoking app website loaded successfully!');

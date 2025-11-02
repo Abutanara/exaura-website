@@ -1,7 +1,7 @@
 {
-  "name": "exaura-website",
+  "name": "myquitly-website",
   "version": "1.0.0",
-  "description": "Landing page for Exaura - Your Journey to Freedom from Smoking",
+  "description": "Landing page for myquitly - Your Journey to Freedom from Smoking",
   "main": "index.html",
   "scripts": {
     "start": "npx live-server --port=3000 --open=/index.html",
@@ -15,7 +15,7 @@
     "website",
     "responsive",
     "modern",
-    "exaura",
+    "myquitly",
     "quit-smoking",
     "health-app",
     "landing-page",
@@ -25,16 +25,16 @@
     "mobile-app",
     "wellness"
   ],
-  "author": "Exaura Team",
+  "author": "myquitly Team",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exaura/exaura-website.git"
+    "url": "https://github.com/myquitly/myquitly-website.git"
   },
   "bugs": {
-    "url": "https://github.com/exaura/exaura-website/issues"
+    "url": "https://github.com/myquitly/myquitly-website/issues"
   },
-  "homepage": "https://exaura.com",
+  "homepage": "https://myquitly.com",
   "devDependencies": {
     "live-server": "^1.2.2",
     "html-minifier": "^4.0.0",
