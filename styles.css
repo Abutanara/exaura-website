@@ -547,7 +547,7 @@ body {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--spacing-8);
 }
 
@@ -628,46 +628,28 @@ body {
 /* About Section */
 .about {
     padding: var(--spacing-24) 0;
-    background: var(--bg-secondary);
+    background: linear-gradient(135deg, rgba(32, 201, 151, 0.08), rgba(6, 182, 212, 0.08));
 }
 
-.about-content {
+.about-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-16);
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-8);
+    margin-top: var(--spacing-12);
 }
 
-.about-text h2 {
-    font-size: var(--font-size-4xl);
-    font-weight: 700;
-    margin-bottom: var(--spacing-6);
-    color: var(--text-primary);
+.about-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-2xl);
+    padding: var(--spacing-8);
+    text-align: center;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-normal);
 }
 
-.about-text p {
-    font-size: var(--font-size-lg);
-    color: var(--text-secondary);
-    margin-bottom: var(--spacing-6);
-    line-height: 1.7;
-}
-
-.about-features {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-4);
-}
-
-.about-feature {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-3);
-    color: var(--text-primary);
-}
-
-.about-feature i {
-    color: var(--primary-color);
-    font-size: var(--font-size-lg);
+.about-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
 }
 
 .visual-card {
@@ -750,7 +732,7 @@ body {
 
 .how-it-works-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--spacing-8);
     margin-top: var(--spacing-12);
 }
@@ -967,7 +949,8 @@ body {
         grid-template-columns: 1fr;
     }
     
-    .trust-grid {
+    .trust-grid,
+    .about-grid {
         grid-template-columns: 1fr;
     }
     
@@ -997,26 +980,28 @@ body {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: var(--spacing-16);
 }
 
 .contact-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: var(--spacing-8);
-    align-items: center;
-    max-width: 600px;
-    margin: 0 auto;
+    align-items: stretch;
+    max-width: 900px;
+    width: 100%;
 }
 
 .contact-item {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: var(--spacing-4);
-    width: 100%;
+    flex: 1;
+    text-align: center;
 }
 
 .contact-item i {
@@ -1033,9 +1018,9 @@ body {
 }
 
 .contact-item > div {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .contact-item h4 {
@@ -1255,17 +1240,7 @@ body {
     }
     
     .hero-visual {
-        order: -1;
-    }
-    
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-12);
-    }
-    
-    .contact-content {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-12);
+        order: 1;
     }
     
     .footer-content {
@@ -1280,7 +1255,7 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: white;
+        background-color: var(--bg-card);
         width: 100%;
         text-align: center;
         transition: var(--transition-normal);
@@ -1349,6 +1324,11 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
         gap: var(--spacing-6);
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        max-width: 600px;
     }
     
     .phone-screen {
@@ -1691,7 +1671,7 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: white;
+        background-color: var(--bg-card);
         width: 100%;
         text-align: center;
         transition: var(--transition-normal);
