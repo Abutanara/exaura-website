@@ -354,6 +354,46 @@ body {
     font-weight: 600;
 }
 
+/* App Store Button Wrapper & Coming Soon Overlay */
+.app-store-btn-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.app-store-btn.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.coming-soon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: var(--spacing-2) var(--spacing-4);
+    border-radius: var(--radius-lg);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    box-shadow: var(--shadow-lg);
+    z-index: 10;
+    white-space: nowrap;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+        opacity: 0.9;
+    }
+}
+
 .btn::before {
     content: '';
     position: absolute;
@@ -398,6 +438,33 @@ body {
     gap: var(--spacing-8);
     margin-bottom: var(--spacing-16);
     animation: fadeInUp 0.6s ease-out 0.8s both;
+}
+
+/* Hero Visual & App Showcase */
+.hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInRight 0.8s ease-out 0.4s both;
+}
+
+.app-showcase {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.showcase-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-2xl);
+    transition: var(--transition-normal);
+}
+
+.showcase-image:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-3xl);
 }
 
 .stat {
@@ -754,7 +821,8 @@ body {
 .how-it-works-card .card-number {
     position: absolute;
     top: -20px;
-    left: var(--spacing-8);
+    left: 50%;
+    transform: translateX(-50%);
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
     width: 40px;
@@ -1243,6 +1311,10 @@ body {
         order: 1;
     }
     
+    .app-showcase {
+        max-width: 600px;
+    }
+    
     .footer-content {
         grid-template-columns: 1fr 1fr;
         gap: var(--spacing-8);
@@ -1402,6 +1474,15 @@ body {
     
     .hero-stat {
         width: 100%;
+    }
+    
+    .app-showcase {
+        max-width: 100%;
+        padding: 0 var(--spacing-4);
+    }
+    
+    .showcase-image {
+        border-radius: var(--radius-lg);
     }
 }
 
