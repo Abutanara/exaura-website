@@ -133,6 +133,14 @@ body {
     color: inherit;
 }
 
+.nav-logo:link,
+.nav-logo:visited,
+.nav-logo:hover,
+.nav-logo:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo-img {
     width: 40px;
     height: 40px;
